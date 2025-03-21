@@ -1,2 +1,2 @@
-# analisador_numeros
- Projeto analisador de números, desenvolvido com HTML, CSS e JS
+# Analisador de números
+ Projeto analisador de números, desenvolvido com **HTML, CSS e JS**
