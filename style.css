@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #DAA520;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin: 50px auto;
+}
+
+main {
+    color: #000;
+    background-color: #FFF;
+    max-width: 60dvw;
+    padding: 16px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+main>* {
+    margin: auto 10px;
+}
+
+p {
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+}
+
+main>.paragrafo {
+    display: inline-block;
+}
+
+.numero {
+    width: 160px;
+    max-width: 160px;
+    border: 1.5px solid #000;
+    margin-bottom: 8px;
+}
+
+.botao {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #000;
+}
+
+.botao:hover {
+    background-color: #D0D0D0;
+}
+
+.lista {
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    width: 160px;
+    max-width: 160px;
+    height: 100px;
+    min-height: 100px;
+    padding: 5px;
+    outline: 0;
+    border: 1px solid #000;
+    margin: 10px 10px;
+}
+
+.resultado {
+    margin: 5px auto;
+}
+
+.resultado>p {
+    text-align: center;
+}
+
+div {
+    margin: 50px auto;
+}
+
+div>p {
+    color: #FFF;
+    text-align: center;
+}
+
+/* família LVHA */
+a {
+    color: #00F;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #800080;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #FFF;
+}
+
+.github {
+    margin-bottom: 8px;
+}
